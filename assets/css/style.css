@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section{
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 20px 0;
+  background: linear-gradient(to top right,blue ,rgb(255, 2, 44));
+}
+
+fieldset{
+  border: none;
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  gap: 20px;
+  justify-content: center;
+  
+}
+
+input{
+  margin-top: 10px;
+}
+
+article{
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+}
+
+p{
+  margin: 20px 0;
+}
+
+input{
+  width: 100px;
+  padding: 5px 0px;
+  font-size: 25px;
+}
